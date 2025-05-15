@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Boiarski - Software, IT, and Cloud Developer</title>
+
+    <meta property="og:title" content="Matthew Boiarski's Personal Portfolio"/>
+    <meta property="og:description" content="Showcasing my skills, projects, and experience in software development, with a focus on cybersecurity."/>
+    <meta name="keywords" content="Matthew Boiarski, Software Developer, IT Developer, Cloud Developer, C++, Python, Java, AI Engineer">
+    <meta property="og:image" content=https://mattboiarski.github.io/"/>
+    <meta property="og:url" content="https://mattboiarski.github.io/"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="627"/>
+    <meta property="og:type" content="website"/>
+    <meta name="view-transition" content="same-origin">
+    <link rel="icon" type="image/png" href="assets/devfolio-logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="javascript/searchbar.js"></script>
+    <script defer src="javascript/scrollreveal.js"></script>
+    <script defer src="javascript/nav.js"></script>
+    <script defer src="javascript/float-dev-icons.js"></script>
+    <script defer src="javascript/contact.js"></script>
+
+</head>
+<body>
+<header>
+    <nav class="topnotch-nav">
+        <div class="search-container" id="searchContainer">
+            <label for="searchInput"></label><input type="text" class="search-input" placeholder="Search..." id="searchInput"/>
+            <button class="search-button" id="toggleSearch"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="navbar">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section id="hero">
+        <div class="container">
+            <img src="assets/MyPic.png"
+                 alt="Matthew Boiarski"
+                 width="488"
+                 height="488"
+                 loading="eager">
+            <video autoplay muted loop id="background-video">
+                <source src="assets/matrix.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <div class="traffic-lights">
+                        <span class="red"></span>
+                        <span class="yellow"></span>
+                        <span class="green"></span>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <span style="font-family: 'Monocraft', monospace; font-size: 24px; color: green;">mb@dev</span>
+                    <span style="font-family: 'Monocraft', monospace; font-size: 24px; color: white;">:</span>
+                    <span style="font-family: 'Monocraft', monospace; font-size: 24px; color: blue;">~$</span>
+                    <p style="font-family: 'Monocraft', monospace; color: white;" id="typing-text" class="cursor typewriter-animation">echo "My name is Matthew Boiarski" | xargs grep "skills"</p>
+                </div>
+            </div>
+
+            <h2>Software Developer | AI/ML Engineer | Cloud & IT Pro</h2>
+            <a href="#contact" class="git-btn"><i class="fas fa-handshake"></i> Get in Touch</a>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>As a senior college student on the brink of graduation, I bring a diverse skill set and a fervent passion for technology to the table.</p>
+        <p>My career aspirations are centered on full stack development, with a particular emphasis on backend engineering and cybersecurity.</p>
+        <p>Currently, I'm honing my skills in various programming languages and expanding my knowledge in Cloud technologies and DevOps/SecOps practices.</p>
+        <p>I'm eager to tackle complex projects involving system architecture, microservices, and cloud integration, aiming to make significant contributions to technological advancements.</p>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="svg-icons"></div>
+            <h1>My Technical Skills</h1>
+            <div class="skills-section" id="skills-start">
+                <!-- Programming Langs / Languages -->
+                <div class="skills-group">
+                    <h3>Languages</h3><hr />
+                    <div class="language-group">
+                        <h2>Programming</h2>
+
+                        <div class="skills-icons">
+                            <div class="skill-icon" title="Zig">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zig/zig-original.svg" alt="Zig"/>
+                            </div>
+                            <div class="skill-icon" title="C">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C"/>
+                            </div>
+                            <div class="skill-icon" title="C++">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
+                            </div>
+                            <div class="skill-icon" title="C#">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#"/>
+                            </div>
+                            <div class="skill-icon" title="Java">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java"/>
+                            </div>
+                            <div class="skill-icon" title="Python">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python"/>
+                            </div>
+                            <div class="skill-icon" title="Rust">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" alt="Rust"/>
+                            </div>
+                            <div class="skill-icon" title="Go">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" alt="Go"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="language-group">
+                        <h2>Scripting</h2>
+                        <div class="skills-icons">
+                            <div class="skill-icon" title="Bash">
+                                <svg viewBox="0 0 128 128" height="60">
+                                    <path fill="none" d="M4.24 4.24h119.53v119.53H4.24z"></path><path fill="#000" d="M109.01 28.64L71.28 6.24c-2.25-1.33-4.77-2-7.28-2s-5.03.67-7.28 2.01l-37.74 22.4c-4.5 2.67-7.28 7.61-7.28 12.96v44.8c0 5.35 2.77 10.29 7.28 12.96l37.73 22.4c2.25 1.34 4.76 2 7.28 2 2.51 0 5.03-.67 7.28-2l37.74-22.4c4.5-2.67 7.28-7.62 7.28-12.96V41.6c0-5.34-2.77-10.29-7.28-12.96zM79.79 98.59l.06 3.22c0 .39-.25.83-.55.99l-1.91 1.1c-.3.15-.56-.03-.56-.42l-.03-3.17c-1.63.68-3.29.84-4.34.42-.2-.08-.29-.37-.21-.71l.69-2.91c.06-.23.18-.46.34-.6.06-.06.12-.1.18-.13.11-.06.22-.07.31-.03 1.14.38 2.59.2 3.99-.5 1.78-.9 2.97-2.72 2.95-4.52-.02-1.64-.9-2.31-3.05-2.33-2.74.01-5.3-.53-5.34-4.57-.03-3.32 1.69-6.78 4.43-8.96l-.03-3.25c0-.4.24-.84.55-1l1.85-1.18c.3-.15.56.04.56.43l.03 3.25c1.36-.54 2.54-.69 3.61-.44.23.06.34.38.24.75l-.72 2.88c-.06.22-.18.44-.33.58a.77.77 0 01-.19.14c-.1.05-.19.06-.28.05-.49-.11-1.65-.36-3.48.56-1.92.97-2.59 2.64-2.58 3.88.02 1.48.77 1.93 3.39 1.97 3.49.06 4.99 1.58 5.03 5.09.05 3.44-1.79 7.15-4.61 9.41zm26.34-60.5l-35.7 22.05c-4.45 2.6-7.73 5.52-7.74 10.89v43.99c0 3.21 1.3 5.29 3.29 5.9-.65.11-1.32.19-1.98.19-2.09 0-4.15-.57-5.96-1.64l-37.73-22.4c-3.69-2.19-5.98-6.28-5.98-10.67V41.6c0-4.39 2.29-8.48 5.98-10.67l37.74-22.4c1.81-1.07 3.87-1.64 5.96-1.64s4.15.57 5.96 1.64l37.74 22.4c3.11 1.85 5.21 5.04 5.8 8.63-1.27-2.67-4.09-3.39-7.38-1.47z"></path><path fill="#4FA847" d="M99.12 90.73l-9.4 5.62c-.25.15-.43.31-.43.61v2.46c0 .3.2.43.45.28l9.54-5.8c.25-.15.29-.42.29-.72v-2.17c0-.3-.2-.42-.45-.28z"></path>
+                                </svg>
+                            </div>
+                            <div class="skill-icon" title="Powershell">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" alt="Pwsh"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language-group">
+                        <h2>Web Programming</h2>
+                        <div class="skills-icons">
+                            <div class="skill-icon" title="HTML">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
+                            </div>
+                            <div class="skill-icon" title="CSS">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS"/>
+                            </div>
+                            <div class="skill-icon" title="JavaScript">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+                            </div>
+                            <div class="skill-icon" title="TypeScript">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript"/>
+                            </div>
+                            <div class="skill-icon" title="Web Assembly">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg" alt="Web Assembly"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks/Libraries -->
+                <div class="skills-group">
+                    <h3>Frameworks/Libraries</h3><hr />
+                    <!-- JavaScript Section -->
+                    <div class="language-group">
+                        <h2>JavaScript</h2>
+
+                        <div class="skills-icons">
+                            <div class="skill-icon" title="React">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React"/>
+                            </div>
+                            <div class="skill-icon" title="Node">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node"/>
+                            </div>
+                            <div class="skill-icon" title="Angular">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" alt="Angular"/>
+                            </div>
+                            <div class="skill-icon" title="Vue">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" alt="Vue"/>
+                            </div>
+                            <div class="skill-icon" title="Next">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Python Section -->
+                    <div class="language-group">
+                        <h2>Python</h2>
+                        <div class="skills-icons">
+                            <div class="skill-icon" title="MatPlotLib">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" alt="MatPlotLib"/>
+                            </div>
+                            <div class="skill-icon" title="NumPy">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="NumPy"/>
+                            </div>
+                            <div class="skill-icon" title="Pandas">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"/>
+                            </div>
+                            <div class="skill-icon" title="PyTorch">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
+                            </div>
+                            <div class="skill-icon" title="TensorFlow">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- C++ Section -->
+                    <div class="language-group">
+                        <h2>C++</h2>
+                        <div class="skills-icons">
+                            <div class="skill-icon" title="Qt">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="Qt"/>
+                            </div>
+                            <div class="skill-icon" title="OpenCV">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/OpenCV_logo_black.svg/800px-OpenCV_logo_black.svg.png" alt="OpenCV"/>
+                            </div>
+                            <div class="skill-icon" title="OpenGL">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opengl/opengl-original.svg" alt="OpenGL"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases Section -->
+                <div class="skills-group">
+                    <h3>Databases</h3>
+                    <div class="skills-icons">
+                        <div class="skill-icon" title="PostGreSQL">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"/>
+                        </div>
+                        <div class="skill-icon" title="MySQL">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL"/>
+                        </div>
+                        <div class="skill-icon" title="SQLite">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQLite"/>
+                        </div>
+                        <div class="skill-icon" title="DynamoDB">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dynamodb/dynamodb-original.svg" alt="DynamoDB"/>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Cloud Services -->
+                <div class="skills-group">
+                    <h3>Cloud Services</h3><hr />
+                    <div class="skills-icons">
+                        <div class="skill-icon" title="Amazon Web Services">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="Amazon Web Services">
+                        </div>
+                        <div class="skill-icon" title="Google Cloud Services">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud Services">
+                        </div>
+                        <div class="skill-icon" title="Microsoft Azure">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" alt="Microsoft Azure">
+                        </div>
+                    </div>
+                    <div class="skills-group">
+                        <h3>Containers</h3><hr />
+                        <div class="skills-icons">
+                            <div class="skill-icon" title="Docker">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" >
+                            </div>
+                            <div class="skill-icon" title="Portainer">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/portainer/portainer-original.svg" alt="Portainer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Source Control and Containers -->
+                <div class="skills-group">
+                    <h3>Source Control</h3><hr />
+                    <div class="skills-icons">
+                        <div class="skill-icon" title="Git">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git">
+                        </div>
+                        <div class="skill-icon" title="GitHub">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub">
+                        </div>
+                        <div class="skill-icon" title="Subversion">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Apache_Subversion_logo.svg/1024px-Apache_Subversion_logo.svg.png" alt="SVN">
+                        </div>
+                    </div>
+
+                    <!-- Build Tools / Tools -->
+                    <div class="skills-group">
+                        <h3>Build Tools</h3><hr />
+                        <div class="skills-icons">
+                            <div class="skill-icon" title="CMake">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cmake/cmake-original.svg" alt="CMake">
+                            </div>
+                            <div class="skill-icon" title="Gradle">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" alt="Gradle">
+                            </div>
+                            <div class="skill-icon" title="Maven">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" alt="Maven">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- GitHub Projects First -->
+            <article>
+                <h3>Springboot AddressBook Project</h3>
+                <p>- This is a <strong>Spring Boot</strong> application designed to manage contact information within an address book.</p>
+                <p>- It utilizes <strong>PostgreSQL</strong> for data storage, <strong>Hibernate JPA</strong> for the API and is configured for deployment using <strong>Docker</strong> containers.</p>
+                <p>- This setup ensures a robust and scalable solution for address book management.</p>
+                <div class="project-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker"/>
+                </div>
+                <a href="https://github.com/MattBoiarski/springboot-addressbook-service" class="cta-btn"><i class="fas fa-eye"></i> View Source / GitHub Repo</a>
+                <figure style="text-align: center; margin: 10px auto;">
+                    <img src="https://opengraph.githubassets.com/9784c65545d944a675eff2461b12348b52938440a7ff0549f4a4190192d3c12a/MattBoiarski/springboot-addressbook-service" alt="Springboot AddressBook Project">
+                </figure>
+            </article>
+
+            <article>
+                <h3>Voice Transcription App</h3>
+                <p>- A machine learning application with a graphical user interface, leveraging <strong>Python</strong>, <strong>NumPy</strong>, and <strong>PyQt</strong>.</p>
+                <p>- It transcribes audio into text using the <strong>FasterWhisper</strong> Model, showcasing integration of advanced data processing and deep learning models.</p>
+                <div class="project-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="NumPy" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Python_and_Qt.svg" alt="PyQt" />
+                </div>
+                <a href="https://github.com/MattBoiarski/Speech-To-Text" class="cta-btn"> <i class="fas fa-eye"></i> View Source / GitHub Repo</a>
+                <figure><img src="assets/MLPythonApp.png" alt="Voice Transcription App"></figure>
+            </article>
+
+            <!-- The Rest Of My Projects -->
+            <article>
+                <h3>Rubik's Cube Visualization</h3>
+                <p>- An interactive Rubik's Cube simulation implemented in <strong>C++</strong> using the <strong>OpenGL</strong> Graphics API.</p>
+                <p>- This project demonstrates proficiency in graphics programming, 3D mathematics, and user interaction design.</p>
+                <div class="project-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opengl/opengl-original.svg" alt="OpenGL" />
+                </div>
+                <a href="#" class="cta-btn" onclick="loadSourceFiles('projects/Makefile', 'projects/Timer.h', 'projects/GLUTWork.cpp'); return false;"><i class="fas fa-eye"></i> View Source</a>
+                <a href="#" class="cta-btn" onclick="downloadFiles('projects/Makefile', 'projects/Timer.h', 'projects/GLUTWork.cpp')"><i class="fas fa-download"></i> Download Source</a>
+                <figure><img src="assets/Rubik.png" alt="Rubik's Cube Project"></figure>
+            </article>
+
+            <article>
+                <h3>College Coding Portfolio</h3>
+                <p>A comprehensive portfolio showcasing <strong>C++</strong> with <strong>SFML</strong> projects developed over the semester, demonstrating a range of programming skills and project management abilities.</p>
+                <div class="project-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/SFML2.svg" alt="SFML"/>
+                </div>
+                <a href="projects/PortCollege.pdf" class="cta-btn"><i class="fas fa-eye"></i> Open & Read</a>
+                <figure>
+                    <img src="assets/CompIVPortSS.png" alt="College Coding Portfolio Screenshot">
+                </figure>
+            </article>
+
+            <article>
+                <h3>Resume Auto-Builder</h3>
+                <p>- An easy-to-use template for building and editing resumes!</p>
+                <p>- I found myself needing to create resume after resume, and after a while, I figured I can code a simple solution to my problem.</p>
+                <p>- HTML & CSS to build a document is easier...</p>
+                <p>- All you need is python to be installed!</p>
+
+                <p>If you don't have it yet, download and install the newest version at <a href="https://www.python.org/downloads/" >Python.org</a></p>
+                <div class="project-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS" height="60">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" />
+                </div>
+                <a href="#" class="cta-btn" onclick="loadSourceFiles('projects/HTML-To-PDF.py', 'projects/main.css', 'projects/resume_template.html'); return false;"><i class="fas fa-eye"></i> View Source</a>
+                <a href="#" class="cta-btn" onclick="downloadFiles('projects/HTML-To-PDF.py', 'projects/main.css', 'projects/resume_template.html')"><i class="fas fa-download"></i> Download Source</a>
+                <figure>
+                    <img src="assets/resume-builder.png" alt="Build Resumes!">
+                </figure>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="user_name">Name / Subject:</label>
+                <input type="text" id="user_name" name="name" required placeholder="Enter your name or subject">
+
+                <label for="user_email">Email:</label>
+                <input type="email" id="user_email" name="email" required placeholder="Enter your email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Thank You Modal -->
+            <div id="thank-you-modal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.5); z-index:1000; justify-content:center; align-items:center;">
+                <div style="background:#fff; padding:2rem; border-radius:8px; max-width:90vw; text-align:center; box-shadow:0 2px 16px rgba(0,0,0,0.2);">
+                    <h2>Thank you!</h2>
+                    <p>Your submission has been received.</p>
+                    <button id="close-thank-you" style="margin-top:1rem;">Close</button>
+                </div>
+            </div>
+        </div>
+    <script src="javascript/email.js"></script>
+        <div class="contact-info">
+                <div class="phone-number">
+                    <p>Text or Call Me:</p>
+                    <a href="tel:+19783947917">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (978) 394-7917</span>
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/matthew-boiarski-615589235/" aria-label="LinkedIn">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="64">
+                    </a>
+                    <a href="https://github.com/MattBoiarski" aria-label="GitHub">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" height="64">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="resume-preview" style="margin:2rem; padding:1rem; border:1px solid #ccc;">
+        <h3>Live Resume Preview</h3>
+        <div id="resume-content" style="position: relative;">
+            <button id="fullscreen-btn"
+                    style="position: absolute; top: 10px; right: 10px; z-index: 10; padding: 0.5em 1em; cursor: pointer; display: flex; align-items: center; gap: 0.4em; font-size: 1rem;">
+                <i class="fas fa-expand" aria-hidden="true"></i> Fullscreen
+            </button>
+
+            <iframe
+                    id="resume-iframe"
+                    src="projects/resume_dir/RESUME.pdf"
+                    width="100%"
+                    height="1000px"
+                    style="border:1px solid #ccc;"
+                    title="Resume PDF Preview"
+                    allowfullscreen
+            >
+                This browser does not support PDFs. Please download the PDF to view it.
+            </iframe>
+        </div>
+
+        <!-- Allows the usage of fullscreen for pdfs -->
+        <script>
+            const fsBtn = document.getElementById('fullscreen-btn');
+            const resumeContent = document.getElementById('resume-content');
+
+            fsBtn.addEventListener('click', () => {
+                if (!document.fullscreenElement) {
+                    resumeContent.requestFullscreen().catch(err => {
+                        alert(`Error attempting to enable fullscreen mode: ${err.message} (${err.name})`);
+                    });
+                } else {
+                    document.exitFullscreen();
+                }
+            });
+
+            // Change button icon and text on fullscreen change
+            document.addEventListener('fullscreenchange', () => {
+                if (document.fullscreenElement) {
+                    fsBtn.innerHTML = '<i class="fas fa-compress" aria-hidden="true"></i> Exit Fullscreen';
+                } else {
+                    fsBtn.innerHTML = '<i class="fas fa-expand" aria-hidden="true"></i> Fullscreen';
+                }
+            });
+        </script>
+
+    </div>
+
+
+    <!-- Links to static resume files -->
+        <div id="resume-links">
+            <p>You can also view or download my resume:</p>
+            <ul>
+                <li>
+                    <a href="projects/resume_dir/Resume_Matthew_Boiarski_25_site.html" target="_blank" rel="noopener noreferrer">
+                        📄 View Resume (HTML)
+                    </a>
+                </li>
+                <li>
+                    <a href="projects/resume_dir/RESUME.pdf" target="_blank" download>
+                        ⬇️ Download Resume (PDF)
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="javascript/glow.js"></script>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Matthew Boiarski. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="javascript/display-code.js"></script>
+<script src="javascript/download-code.js"></script>
+</body>
+</html>

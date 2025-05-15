@@ -1,0 +1,58 @@
+/* Copyright Matthew Boiarski 2025 */
+@page {
+    size: A4;
+    margin: 20mm;
+}
+body {
+    font-family: "Times New Roman", sans-serif;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.resume {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 210mm; /* A4 width */
+    margin: auto; /* Center the resume */
+}
+h1, h2, h3 {
+    color: #2c3e50;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; /* Center the name */
+}
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+h3 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.contact-info {
+    text-align: center; /* Center the contact info */
+    margin-bottom: 20px; /* Add space below contact info */
+}
+.contact-info p {
+    margin: 5px 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 5px 0;
+}
+footer {
+    text-align: center;
+    border-top: 2px solid #2c3e50;
+    margin-top: 20px;
+    padding-top: 10px;
+}

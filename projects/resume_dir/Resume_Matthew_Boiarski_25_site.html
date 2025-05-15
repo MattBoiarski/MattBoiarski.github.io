@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Matthew Boiarski - Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./main_site.css">
+</head>
+
+<!-- This script simply works as a fallback if logos are not found denoted by <img src="" ...></img> -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const fallbackSrc = "logos/logo-fallback.png";
+
+        document.querySelectorAll("img.company-logo").forEach(img => {
+            if (!img.getAttribute("src")) {
+                img.src = fallbackSrc;
+            }
+        });
+
+        document.querySelectorAll("img.certificate-logo").forEach(img => {
+            if(!img.getAttribute("src")){
+                img.src = fallbackSrc;
+            }
+        });
+    });
+</script>
+
+<body>
+<div class="resume">
+    <header>
+        <h1>Matthew Boiarski</h1>
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> 132 Stow Rd. Boxborough, MA 01719</p>
+            <p><i class="fas fa-envelope"></i> 21boiarskim@gmail.com | <i class="fas fa-phone"></i> +1 (978) 394-7917</p>
+            <p><a href="https://www.linkedin.com/in/matthew-boiarski-615589235" target="_blank">
+                <i class="fab fa-linkedin"></i> linkedin.com/in/matthew-boiarski-615589235</a>
+            </p>
+            <p>
+                <i class="fa fa-link"></i> <a href="https://mattboiarski.github.io/" target="_blank"> https://mattboiarski.github.io/ </a>
+            </p>
+        </div>
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p><strong>Versatile Information Technology and Computer Science Professional</strong> with a proven track record of delivering innovative solutions across diverse technical domains.
+            <br>Extensive expertise in operating systems, high-performance computing, software development, and networking.</p>
+        <p><strong>Key strengths include:</strong></p>
+        <ul>
+            <li> - Proficiency in full-stack development, graphics programming, AI integration, and computational problem-solving.</li>
+            <li> - Experience in RF & Microwave technologies, mechanical engineering, and automation.</li>
+            <li> - Expertise in leveraging cloud technologies (AWS, Azure, GCP) and advanced CS principles to drive innovation.</li>
+        </ul>
+        <p>Dedicated to staying ahead of emerging technologies and applying them to create efficient, cutting-edge solutions that meet complex challenges</p>
+        <p>Committed to excellence and continuous improvement in all aspects of my work.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+
+        <div>
+            <p>
+                <strong>University of Massachusetts Lowell</strong>, Lowell, MA
+               <span style="float:right;"><i class="far fa-calendar-alt"></i> 2024 - 2025</span>
+            </p>
+            <p><strong>Bachelor of Science in Information Technology & Computer Science</strong></p>
+            <p><strong>Current Status:</strong> Senior</p>
+            <ul>
+                <li><strong>Relevant coursework:</strong> Databases, Data Analysis, Shell Scripting, Back-End Web Development, Mobile Application Development, Networking, UNIX/Linux Systems Administration, Web Development, Software Development</li>
+                <li><strong>Skills developed:</strong> AWS, GCP, Microsoft Azure, TCP/IP, IT Operations, Microsoft Office Suite, HTML & CSS, JS</li>
+            </ul>
+        </div>
+
+        <div style="margin-top: 15px;">
+            <p>
+                <strong>University of Massachusetts Lowell</strong>, Lowell, MA
+                <span style="float:right;"><i class="far fa-calendar-alt"></i> 2021 - 2023</span>
+            </p>
+            <p><strong>Associate's Equivalent / Transfer, Computer Science</strong></p>
+            <ul>
+                <li><strong>Relevant coursework:</strong> Data Structures & Algorithms, Operating Systems, Cloud Infrastructure, Combinatorial Logic, PCB Design, Linear Algebra</li>
+                <li><strong>Skills developed:</strong> C, C++, Rust, OCaml, Bash, MIPS Assembly, x86, ARM, GUI Development, Mathematical Computing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> C, C++, C#, Java, Python, Zig, Rust, Go,  Assembly(ARM,x86,MIPS)</li>
+            <li><strong>Scripting & Shell:</strong> Bash, KornShell, PowerShell</li>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript, TypeScript, React, Angular, Vue, Node.js, Next.js, WebAssembly</li>
+            <li><strong>Software Development:</strong> OOP, Functional Programming, Multithreading, Embedded Systems</li>
+            <li><strong>Cloud & DevOps:</strong> AWS, GCP, Microsoft Azure, Docker, Kubernetes, CI/CD Pipelines</li>
+            <li><strong>Databases (DBs):</strong> MySQL, PostgreSQL, MongoDB, SQLite, Oracle</li>
+            <li><strong>Source Control & Build Tools:</strong> Git, GitHub, Gradle, Maven, Makefile, CMake</li>
+            <li><strong>Integrated Development Environments (IDEs):</strong> JetBrains, Eclipse, VS/VS Code</li>
+            <li><strong>Graphics & Game Development:</strong> OpenGL, Vulkan, WebGL, Qt</li>
+            <li><strong>AI & Natural Language Processing (NLP):</strong>LLMs, Prompt Engineering, RAG, LangChain, NLTK</li>
+            <li><strong>Machine Learning (ML) & Data Science:</strong> OpenCV, PyTorch, TensorFlow, Pandas, NumPy, Matplotlib, SciPy, Jupyter</li>
+            <li><strong>Cybersecurity:</strong> Penetration Testing, Vulnerability Assessment, Encryption, Network Security, Reverse Engineering</li>
+            <li><strong>Operating Systems (OS):</strong> Windows, Linux (Ubuntu, Arch, Debian), macOS, FreeBSD, Android, iOS</li>
+            <li><strong>Networking:</strong> TCP/IP, DNS, DHCP, VPNs, Firewalls, Load Balancing, Wireshark</li>
+            <li><strong>IoT & Embedded Systems:</strong> Arduino, Raspberry Pi, ESP32</li>
+            <li><strong>Project Management & Methodologies:</strong> Agile, Scrum, Kanban, Jira</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+
+        <div class="job-entry">
+            <img src="logos/Meta_x_Mercor.png" class="company-logo" alt="MetaXMercor">
+            <div>
+                <h3>
+                    AI/LLM QA Expert – Chemistry, Biology, Math & Computer Science <br> Mercor & Meta<br>
+                    &nbsp;&nbsp;
+                    <a href="https://mercor.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-link"></i> Website
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/company/mercor-intelligence/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+
+                </h3>
+                <p><em><i class="fas fa-globe"></i> Remote | <i class="fas fa-file-contract"></i> Contract | <i class="far fa-calendar-alt"></i> April 2025 – Present</em></p>
+                <ul>
+                    <li>Conducted in-depth quality assurance testing on large language model outputs to ensure factual accuracy, coherence, and alignment.</li>
+                    <li>Collaborated with cross-functional teams to identify edge cases, (in specific domains) and improved AI system responses through structured evaluation.</li>
+                    <li>Applied testing protocols / grading rubrics to measure model performance across diverse content domains, contributing to safer and more reliable AI deployment.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="job-entry">
+            <img src="logos/Memphis%20Cult.png" class="company-logo" alt="Memphis Cult Music Group Logo">
+            <div>
+                <h3>
+                    Main Solutions Architect | Memphis Cult Music Group<br>
+                    &nbsp;&nbsp;
+                    <a href="https://memphiscult.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-link"></i> Website
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/company/memphiscultmusicgroup/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://open.spotify.com/artist/6n9sdNb7mWvVmARDT6ujnJ" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-spotify"></i> Spotify
+                    </a>
+                </h3>
+                <p><em><i class="fas fa-globe"></i> Remote | <i class="fas fa-file-contract"></i> Contract | <i class="far fa-calendar-alt"></i> February 2025 – May 2025</em></p>
+                <ul>
+                    <li>Implemented a Demand-Side Platform (DSP) and lowered advertising costs by ~40% through real-time bidding (RTB) and precise audience targeting.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="job-entry">
+            <img src="logos/Memphis%20Cult.png" class="company-logo" alt="Memphis Cult Music Group Logo">
+            <div>
+                <h3>
+                    Technical Lead / Back-End SWE |
+                    Memphis Cult Music Group<br>
+
+                    <a href="https://memphiscult.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-link"></i> Website
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/company/memphiscultmusicgroup/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://open.spotify.com/artist/6n9sdNb7mWvVmARDT6ujnJ" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-spotify"></i> Spotify
+                    </a>
+
+                </h3>
+                <p><em><i class="fas fa-globe"></i> Remote | <i class="fas fa-hourglass-half"></i> Part-Time | <i class="far fa-calendar-alt"></i> September 2023 – February 2025</em></p>
+                <ul>
+                    <li>Developed backend applications in Python and C++ (WinAPI/MFC), integrating MySQL databases.</li>
+                    <li>Designed a revenue and payment system for artist payouts.</li>
+                    <li>Implemented AI-driven music technology solutions using DeepSeek and AudioCraft.</li>
+                    <li>Automated processes via Telegram bots and Spotify/DistroKid integration.</li>
+                    <li>Led technical hiring, mentoring, and collaboration with creative teams.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="job-entry">
+            <img src="logos/QMicrowave.png" class="company-logo" alt="QMicrowave Logo">
+            <div>
+                <h3>
+                    Drafter / Design Engineer Intern | QMicrowave<br>
+                    &nbsp;&nbsp;
+                    <a href="https://qmicrowave.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-link"></i> Website
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/company/q-microwave-inc/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </h3>
+                <p><i class="fas fa-map-marker-alt"></i> <em>El Cajon, CA | <i class="fas fa-graduation-cap"></i> Internship | <i class="far fa-calendar-alt"></i> May 2022 – August 2022</em></p>
+                <ul>
+                    <li>Designed RF and microwave components, including bandpass filters, for DoD communications.</li>
+                    <li>Worked under ITAR regulations, handling confidential defense-related designs.</li>
+                    <li>Developed test fixtures using AutoCAD and SolidWorks.</li>
+                    <li>Contributed to L3Harris project initiation and LN2 environmental testing.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>LaTeX Viewer App:</strong> A Python-based program that allowed me to print in LaTeX format, with a provided keyboard. </li>
+            <li><strong>Voice Transcription App:</strong> A Python-based machine learning app for audio-to-text transcription. (On my LinkedIn)</li>
+            <li><strong>Rubik's Cube Demo:</strong> A C++ program which uses OpenGL and GLSL shaders to render it. (On my website)</li>
+            <li><strong>Demand Side Platform (DSP):</strong> Lowered advertising costs by ~40% through real-time bidding (RTB)</li>
+            <li><strong>Revenue/Payout System:</strong> Automates financial transactions for music labels.</li>
+            <li><strong>Automated Telegram Bots:</strong> Integrated with MySQL databases for real-time artist management.</li>
+            <li><strong>Computer Vision-Based Quality Control:</strong> Developed a vision system for part inspection.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Certificates</h2>
+        <div class="certificate-entry">
+            <img src="logos/AWS.png" class="certificate-logo" alt="AWS">
+            <div>
+                <p><strong>AWS Academy Graduate</strong> - <u>Cloud Foundations</u></p>
+            </div>
+        </div>
+
+        <div class="certificate-entry">
+            <img src="logos/FCC.png" class="certificate-logo" alt="FCC">
+            <div>
+                <p><strong>freeCodeCamp</strong> - <u>Machine Learning With Python</u></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Recognitions</h2>
+        <span style="float:right;"><i class="far fa-calendar-alt"></i> 2023 - 2025</span>
+        <ul>
+            <li><strong>Dean's List</strong> - University Of Massachusetts Lowell</li>
+        </ul>
+    </section>
+    <footer>
+        <p>
+            <em>References available upon request</em>
+        </p>
+    </footer>
+</div>
+</body>
+</html>
